@@ -1,0 +1,64 @@
+//- index.pug
+doctype html
+html
+  head
+    title Devanshu's dance academy
+    style 
+      include ../static/style.css
+     
+  body
+    nav#navbar.top 
+        ul 
+          div#logo
+            img(src="../static/img/logo.png")
+            |DDA
+          li #[a(href = "/") Home]
+          li #[a(href = "/") Contact us]
+          li #[a(href = "/") About]
+          li #[a(href = "/") Services]
+          li #[a(href = "/") Class info]
+
+
+    section#introsection 
+      div Welcome to devanshu's dance academy.
+      div.small Eat Sleep Dance Repeat
+
+    section#mission  
+      |Our Mission
+  div.collect
+    div.card 
+          h3 This is perfection
+            div.card-box
+               div.card-img 
+                  img(src="./static/img/1.png", alt="")
+               div.card-content
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quos 
+    div.card 
+          h3 Dance is life
+            div.card-box
+               div.card-img 
+                  img(src="./static/img/1.png", alt="")
+               div.card-content
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quos 
+    div.card 
+          h3 Just Dance or go home
+             div.card-box
+               div.card-img 
+                  img(src="./static/img/1.png", alt="")
+               div.card-content
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quos 
+           
+
+    Section#sponsersSection 
+      h4 Section for sponsors 
+      div#sponsers 
+          img(src="./static/img/logo1.png", alt="sponsars image", Class="spImage")
+          img(src="./static/img/logo2.png", alt="sponsars image", Class="spImage")
+          img(src="./static/img/logo3.png", alt="sponsars image", Class="spImage")
+          img(src="./static/img/logo4.png", alt="sponsars image", Class="spImage")
+
+    footer#footer 
+      | Copyright Ⓒ	 2022 Devanshudanceacademy.com | All rights reserved
+
+    script
+      include ../static/index.js
