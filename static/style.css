@@ -55,15 +55,17 @@ padding: 5px 36px;
         font-size: 36px;
     }
 
-#sponsersSection {
+ #sponsersSection  {
     height: 296px;
     background-color: #da7878;
+    margin-top: 50px;
 }
-#sponsersSection h4{
+#sponsersSection  h3{
     text-align: center;
     padding-top: 2px;
     font-family: 'Palette Mosaic', cursive;
     padding-top:21px;
+    font-size: 30px;
 }
 
 #sponsers{
@@ -75,18 +77,16 @@ padding: 5px 36px;
     height: 80%;
     margin: 20px;
 }
-#mission{
+
+#mission>h3{
     text-decoration: solid;
     height: 55px;
-    margin: auto;
+    /* margin: auto; */
     text-align: center;
     font-size: 30px;
     font-family: 'Palette Mosaic', cursive;
 }
-#mission,.collect
-{
-    background-color: antiquewhite;
-}
+
 .card{
     display: inline-block;
     text-align: center;
@@ -157,10 +157,11 @@ height: inherit;
     height: 60px;
     text-align: center;
     /* font-family: 'Palette Mosaic', cursive; */
-    background-color: rgb(241, 182, 182);
-justify-content: center;
-align-items: center ;
-font-size: 20px; 
+    background-color: rgb(129, 60, 60);
+justify-content: center; 
+ align-items: center ;
+font-size: 28px; 
 font-family: 'yeon Sung';
+/* margin-top: 600px ; */
 }
 
